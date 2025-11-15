@@ -1,0 +1,11 @@
+# type,text,images,target_url
+# type: tweet / reply / like
+# text: 投稿テキスト（改行は \n で表現）
+# images: カンマ区切りのファイル名（images/ 内）。空にすると画像なし
+# target_url: reply/like の対象ツイート URL（reply と like のときに必須）
+
+
+tweet,今日はいい天気ですね！#毎日投稿,,
+tweet,朝の学び: 継続は力なり。\n今日も一歩。,photo1.jpg,
+reply,同感です！素晴らしい投稿です。,photo2.jpg,https://twitter.com/user/status/1234567890123456789
+like,,,https://twitter.com/user/status/9876543210987654321
